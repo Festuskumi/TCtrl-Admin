@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Outfit:wght@100..900&family=Prata&family=Sriracha&display=swap');
+@import "tailwindcss";
+
+
+*{
+    font-family: Outfit;
+}
+
+select, input, textarea{
+    border: 1px solid #a46685;
+    outline-color:#a46685;
+    border-radius: 5px;
+}
+
+
+.active{
+    background-color: rgb(183, 183, 151);
+    border-color: rgba(214, 84, 108, 0.669);
+}
